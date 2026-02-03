@@ -54,15 +54,15 @@ st.markdown("""
 
 st.markdown("""
     You can visit the github site by clicking on the link
-    <a href="https://linkedin.com/in/letlhogonolo-mothoagae" target="_blank">
-""", unsafe_allow_html=True)
+    <a href="https://github.com/IamLuckyT" target="_blank">
+""")
 
 st.markdown("---")
 
 # About Me Section
-st.markdown("### 👨‍💻 About Me")
-
 col1, col2 = st.columns([1, 2])
+
+st.markdown("### 👨‍💻 About Me")
 
 with col2:
     st.markdown("""
@@ -211,4 +211,5 @@ st.info("Beyond coding, I enjoy **project planning, system design, and building 
 # Footer
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #666;'>Built with Streamlit 🎈</p>", unsafe_allow_html=True)
+
 
