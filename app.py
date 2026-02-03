@@ -53,9 +53,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-    <div class='profile-views'>
-    <img src="https://komarev.com/ghpvc/?username=iamluckyt&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-    </div>
+    You can visit the github site by clicking on the link
+    <a href="https://linkedin.com/in/letlhogonolo-mothoagae" target="_blank">
 """, unsafe_allow_html=True)
 
 st.markdown("---")
@@ -77,9 +76,9 @@ with col2:
 st.markdown("---")
 
 # Current Focus Section
-st.markdown("### 🚀 Current Focus")
-
 col1, col2 = st.columns(2)
+
+st.markdown("### 🚀 Current Focus")
 
 with col1:
     st.markdown("""
@@ -212,3 +211,4 @@ st.info("Beyond coding, I enjoy **project planning, system design, and building 
 # Footer
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #666;'>Built with Streamlit 🎈</p>", unsafe_allow_html=True)
+
