@@ -19,11 +19,19 @@ st.image(
     caption="Github Profile picture"
 )
 
-st.write("Hello2")
+st.write("Hi 👋, I'm Letlhogonolo Mothoagae")
+st.write("Final-year BSc Computer Science & Electronics student | Full-Stack Developer | Systems & Automation Builder
+I design and build practical digital systems that help businesses operate better — from web platforms and automation workflows to secure, scalable system architectures.")
 
-st.title("Title heading")
+st.divider()
 
-st.write("Hello, Streamlit!")
+st.title("About Me")
+st.write("🎓 Final-year BSc Computer Science & Electronics student (South Africa)")
+st.write("🏗️ Founder & Developer at Plug Connect Solutions — a digital solutions and systems development initiative")
+st.write("🔍 Strong interest in Full-Stack Development, Cybersecurity Awareness, Cloud Computing, Networks, and Business Automation")
+st.write("🧠 I focus on how systems work end-to-end, not just writing code")
+st.write("🏆 Actively building competition-ready and client-ready prototypes")
+
 
 st.header("Number selection")
 
@@ -32,4 +40,5 @@ st.write(f"You picked: {number}")
 
 
 st.write("visit us @Plug Connect Solutions")
+
 
