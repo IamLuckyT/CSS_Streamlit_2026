@@ -45,6 +45,16 @@ st.markdown("""
 *Digital presence & social media systems
 """)
 
+st.divider()
+
+st.write("🌱 Deepening skills in:")
+
+st.markdown("""Full-Stack Web Development
+System architecture & integration
+Secure-by-design thinking
+Real-world project delivery
+""")
+
 st.header("Number selection")
 
 number = st.slider("Pick a number", 1, 100)
@@ -52,6 +62,7 @@ st.write(f"You picked: {number}")
 
 
 st.write("visit us @Plug Connect Solutions")
+
 
 
 
