@@ -20,8 +20,8 @@ st.image(
 )
 
 st.write("Hi 👋, I'm Letlhogonolo Mothoagae")
-st.write("Final-year BSc Computer Science & Electronics student | Full-Stack Developer | Systems & Automation Builder
-I design and build practical digital systems that help businesses operate better — from web platforms and automation workflows to secure, scalable system architectures.")
+st.write("""Final-year BSc Computer Science & Electronics student | Full-Stack Developer | Systems & Automation Builder
+I design and build practical digital systems that help businesses operate better — from web platforms and automation workflows to secure, scalable system architectures.""")
 
 st.divider()
 
@@ -40,5 +40,6 @@ st.write(f"You picked: {number}")
 
 
 st.write("visit us @Plug Connect Solutions")
+
 
 
