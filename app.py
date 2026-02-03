@@ -25,7 +25,7 @@ I design and build practical digital systems that help businesses operate better
 
 st.divider()
 
-st.title("####About Me")
+st.write("###About Me")
 st.write("🎓 Final-year BSc Computer Science & Electronics student (South Africa)")
 st.write("🏗️ Founder & Developer at Plug Connect Solutions — a digital solutions and systems development initiative")
 st.write("🔍 Strong interest in Full-Stack Development, Cybersecurity Awareness, Cloud Computing, Networks, and Business Automation")
@@ -34,14 +34,16 @@ st.write("🏆 Actively building competition-ready and client-ready prototypes")
 
 st.divider()
 
-st.write("####🚀 Current Focus")
+st.write("###🚀 Current Focus")
 st.write("🔭 Building and scaling Plug Connect Solutions")
 st.write("A software-focused initiative delivering:")
 
-st.markdown("Web & App Development")
-st.markdown("Business Systems & Dashboards")
-st.markdown("Automation & AI-assisted workflows")
-st.markdown("Digital presence & social media systems")
+st.write("""
+*Web & App Development
+*Business Systems & Dashboards
+*Automation & AI-assisted workflows
+*Digital presence & social media systems
+""")
 
 st.header("Number selection")
 
@@ -50,6 +52,7 @@ st.write(f"You picked: {number}")
 
 
 st.write("visit us @Plug Connect Solutions")
+
 
 
 
