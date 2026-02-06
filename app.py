@@ -53,9 +53,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-    You can visit the github site by clicking on the link
-    <a href="https://github.com/IamLuckyT" target="_blank">
-""")
+    You can visit my GitHub profile at 
+    <a href="https://github.com/IamLuckyT" target="_blank">github.com/IamLuckyT</a>
+""", unsafe_allow_html=True)
 
 st.markdown("---")
 
@@ -211,5 +211,6 @@ st.info("Beyond coding, I enjoy **project planning, system design, and building 
 # Footer
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #666;'>Built with Streamlit 🎈</p>", unsafe_allow_html=True)
+
 
 
